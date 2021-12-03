@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <!-- Title for browser tab -->
+      <title>2021 Income Tax</title>
+      <!-- Link to CSS -->
+      <link href="index.css" rel="stylesheet" type="text/css">
+    </head>
+	
+    <body>
+      <!-- Header -->
+      <h1>2021 Federal Income Tax Calculator for Filing Single</h1>
+      
+        <!-- labels, inputs, and calculate button --> 
+        <div id="inputForm">  
+        <p>           
+        <label>First Name:</label>
+        <input type="text" name="first" id="first" autocomplete="off" required>
+        </p>
+        <p>
+        <label>Last Name:</label>
+        <input type="text" name="last" id="last" autocomplete="off" required>
+        </p>
+        <p>
+        <label>Taxable Income:</label>
+        <input type="text" name="income" id="income" autocomplete="off" required>
+        </p>
+
+        <p>
+        <button onclick="incomeTax()">Calculate</button>
+        <button onclick="reset()">Reset</button>
+        </p>
+        </div>   
+
+        <!-- output -->
+        <p id="output"></p>
+
+               
+        <!-- Footer with first name -->
+        <footer>&copy; - Eddie 2021</footer>
+        
+        <!-- Link to JavaScript -->
+        <script src="index.js"></script>
+   </body>
+	
+</html>
